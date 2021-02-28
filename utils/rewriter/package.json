@@ -2,7 +2,7 @@
   "name": "https-everywhere-rewriter",
   "version": "1.0.0",
   "dependencies": {
-    "event-stream": "3.0.20",
+    "event-stream": "3.3.5",
     "readdirp": "2.0.1",
     "urijs": "^1.19.1",
     "xmldom": "0.1.17"
