@@ -13,7 +13,7 @@
     "@octokit/rest": "^17.1.4",
     "progress": "^2.0.3",
     "axios": "^0.19.2",
-    "unzipper": "0.10.10",
+    "unzipper": "0.10.11",
     "mocha": "8.0.1",
     "chai": "4.2.0"
   }
