@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "William Budington",
-  "contributors": ["Alexis Hancock"],
+  "contributors": [
+    "Alexis Hancock"
+  ],
   "license": "GPL-3.0",
   "dependencies": {
     "@octokit/rest": "^17.1.4",
@@ -15,6 +19,8 @@
     "axios": "^0.19.2",
     "unzipper": "0.10.10",
     "mocha": "8.0.1",
-    "chai": "4.2.0"
-  }
+    "chai": "4.2.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
