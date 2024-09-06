@@ -10,11 +10,11 @@
   "contributors": ["Alexis Hancock"],
   "license": "GPL-3.0",
   "dependencies": {
-    "@octokit/rest": "^17.1.4",
+    "@octokit/rest": "^20.0.0",
     "progress": "^2.0.3",
     "axios": "^0.19.2",
-    "unzipper": "0.10.10",
-    "mocha": "8.0.1",
-    "chai": "4.2.0"
+    "unzipper": "0.12.1",
+    "mocha": "9.1.2",
+    "chai": "4.3.10"
   }
 }
